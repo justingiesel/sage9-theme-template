@@ -5,3 +5,23 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+header {
+  .bg-dark {
+    background-color: $secondary !important;
+  }
+}
+
+.banner {
+  .brand {
+    background-image: url("../images/ingastone-farrier-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-size: contain;
+    display: block;
+    height: 100px;
+    max-width: 350px;
+    width: 100%;
+    margin: 15px;
+  }
+}

@@ -10,7 +10,7 @@
   },
   "publicPath": "/app/themes/sage",
   "devUrl": "http://127.0.0.1/sage/",
-  "proxyUrl": "http://localhost:3000",
+  "proxyUrl": "http://localhost:8888",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
     "app/**/*.php",
