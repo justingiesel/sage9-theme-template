@@ -6,6 +6,17 @@
   @extend .nav-link;
 }
 
+.nav-link {
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
 header {
   .bg-dark {
     background-color: $secondary !important;
@@ -14,7 +25,7 @@ header {
 
 .banner {
   .brand {
-    background-image: url("../images/ingastone-farrier-logo.jpg");
+    background-image: url("../images/ingatestone-farrier-logo.jpg");
     background-repeat: no-repeat;
     background-size: auto auto;
     background-size: contain;
@@ -23,5 +34,8 @@ header {
     max-width: 350px;
     width: 100%;
     margin: 15px;
+    font-size: 0/0;
+    text-shadow: none;
+    color: transparent;
   }
 }

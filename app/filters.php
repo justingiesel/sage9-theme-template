@@ -3,6 +3,21 @@
 namespace App;
 
 /**
+ * Add sidebar under specific conditions.
+ */
+add_filter('sage/display_sidebar', function ($display) {
+    static $display;
+
+    isset($display) || $display = in_array(false, [
+      // The sidebar will be displayed if any of the following return true
+      is_single(),
+      is_404(),
+      is_page_template('home.blade.php')
+    ]);
+
+    return $display;
+});
+/**
  * Add <body> classes
  */
 add_filter('body_class', function (array $classes) {
@@ -89,3 +104,5 @@ add_filter('comments_template', function ($comments_template) {
 
     return $comments_template;
 }, 100);
+
+   
