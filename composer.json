@@ -48,7 +48,7 @@
         "wpackagist-plugin/wp-logo-showcase-responsive-slider-slider": "2.4.1",
         "wpackagist-plugin/woocommerce" : "^4.0.1",
         "wpackagist-plugin/megamenu" : "^2.7.4",
-        "wpackagist-plugin/plugins/woocommerce-products-slider": "1.13.9"    
+        "wpackagist-plugin/woocommerce-products-slider":"1.13.9"    
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.8.0",

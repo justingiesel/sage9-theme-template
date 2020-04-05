@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79305c2d588b359e7a0af10b46936c0f",
+    "content-hash": "e3dc06a979d2a94e583aaacb155d6189",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -1381,24 +1381,6 @@
             "homepage": "https://wordpress.org/plugins/megamenu/"
         },
         {
-            "name": "wpackagist-plugin/woo-slider-pro-drag-drop-slider-builder-for-woocommerce",
-            "version": "1.12",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woo-slider-pro-drag-drop-slider-builder-for-woocommerce/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-slider-pro-drag-drop-slider-builder-for-woocommerce.zip?timestamp=1576032949"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woo-slider-pro-drag-drop-slider-builder-for-woocommerce/"
-        },
-        {
             "name": "wpackagist-plugin/woocommerce",
             "version": "4.0.1",
             "source": {
@@ -1415,6 +1397,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-products-slider",
+            "version": "1.13.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-products-slider/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-products-slider.zip?timestamp=1586074456"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-products-slider/"
         },
         {
             "name": "wpackagist-plugin/wp-logo-showcase-responsive-slider-slider",
@@ -2110,6 +2110,24 @@
                 "standards"
             ],
             "time": "2019-10-14T12:27:06+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/woo-slider-pro-drag-drop-slider-builder-for-woocommerce",
+            "version": "1.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-slider-pro-drag-drop-slider-builder-for-woocommerce/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-slider-pro-drag-drop-slider-builder-for-woocommerce.zip?timestamp=1576032949"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-slider-pro-drag-drop-slider-builder-for-woocommerce/"
         }
     ],
     "aliases": [],
