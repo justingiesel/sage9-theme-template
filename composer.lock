@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5652ddc4898716079433d28994bfd1ac",
+    "content-hash": "79305c2d588b359e7a0af10b46936c0f",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -635,16 +635,16 @@
         },
         {
             "name": "mwdelaney/sage-bootstrap4-navwalker",
-            "version": "1.3",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MWDelaney/sage-bootstrap4-navwalker.git",
-                "reference": "325f45ed9b406c99189afc269af0e46cd8d378f5"
+                "reference": "bc6a513fdf2e5972879ddf9b7148fef425c6b3fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MWDelaney/sage-bootstrap4-navwalker/zipball/325f45ed9b406c99189afc269af0e46cd8d378f5",
-                "reference": "325f45ed9b406c99189afc269af0e46cd8d378f5",
+                "url": "https://api.github.com/repos/MWDelaney/sage-bootstrap4-navwalker/zipball/bc6a513fdf2e5972879ddf9b7148fef425c6b3fd",
+                "reference": "bc6a513fdf2e5972879ddf9b7148fef425c6b3fd",
                 "shasum": ""
             },
             "require": {
@@ -674,7 +674,7 @@
                 "navwalker",
                 "wordpress"
             ],
-            "time": "2019-03-14T23:26:19+00:00"
+            "time": "2020-04-01T20:20:08+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -1379,6 +1379,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/megamenu/"
+        },
+        {
+            "name": "wpackagist-plugin/woo-slider-pro-drag-drop-slider-builder-for-woocommerce",
+            "version": "1.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-slider-pro-drag-drop-slider-builder-for-woocommerce/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-slider-pro-drag-drop-slider-builder-for-woocommerce.zip?timestamp=1576032949"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-slider-pro-drag-drop-slider-builder-for-woocommerce/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",

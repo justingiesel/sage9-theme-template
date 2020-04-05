@@ -2,13 +2,20 @@
 	<div class="container">	
 		<div class="row">
 			<div class="col-lg-6">
-				<a class="brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
+				<a class="brand" href="{{ home_url('/') }}" title="{{ get_bloginfo('name') }}">{{ get_bloginfo('name', 'display') }}</a>
 			</div>
 			<div class="col-lg-6">
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
+				<div class="row align-items-end">
+					<div class="col-lg-12 my-lg-3 text-right">
+						<div>Log In / Basket</div>
+					</div>
+					<div class="col-lg-12">
+						<form class="form-inline my-2 my-lg-3 float-right">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

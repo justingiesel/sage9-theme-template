@@ -1,4 +1,4 @@
-<footer class="content-info bg-dark">
+<footer class="content-info">
   <div class="container">
     @php dynamic_sidebar('sidebar-footer') @endphp
   </div>
