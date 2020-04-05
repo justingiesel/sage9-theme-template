@@ -10,7 +10,7 @@
 						<div>Log In / Basket</div>
 					</div>
 					<div class="col-lg-12">
-						<form class="form-inline my-2 my-lg-3 float-right">
+						<form class="form-inline form-search my-2 my-lg-3 float-right">
 							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 						</form>

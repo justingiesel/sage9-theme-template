@@ -18,6 +18,12 @@ footer {
             justify-content: center;
         }
 
+        @include media-breakpoint-down(sm) {
+            ul {
+                flex-direction: column;
+            }
+        }
+
         li {
             margin: 5px 10px;
         }
