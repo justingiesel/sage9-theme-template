@@ -45,8 +45,8 @@
     "soberwp/controller": "~2.1.0",
     "mwdelaney/sage-bootstrap4-navwalker": "^1.3",
     "roots/sage-woocommerce": "^1.0",
-    "wpackagist-plugin/woocommerce" : "^4.0.1",
-    "wpackagist-plugin/megamenu" : "^2.7.4" 
+        "wpackagist-plugin/woocommerce" : "^4.0.1",
+        "wpackagist-plugin/smart-slider-3":"3.3.28"    
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.8.0",
