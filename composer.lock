@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3dc06a979d2a94e583aaacb155d6189",
+    "content-hash": "ff8b52c3ddc838ae8342748d6c6b9e3b",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -1363,22 +1363,40 @@
             "time": "2019-09-17T11:12:18+00:00"
         },
         {
-            "name": "wpackagist-plugin/megamenu",
-            "version": "2.7.4",
+            "name": "wpackagist-plugin/kadence-blocks",
+            "version": "1.7.20",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/megamenu/",
-                "reference": "tags/2.7.4"
+                "url": "https://plugins.svn.wordpress.org/kadence-blocks/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/megamenu.2.7.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/kadence-blocks.zip?timestamp=1585779018"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/megamenu/"
+            "homepage": "https://wordpress.org/plugins/kadence-blocks/"
+        },
+        {
+            "name": "wpackagist-plugin/smart-slider-3",
+            "version": "3.3.28",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/smart-slider-3/",
+                "reference": "tags/3.3.28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/smart-slider-3.3.3.28.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/smart-slider-3/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
@@ -1397,42 +1415,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
-        },
-        {
-            "name": "wpackagist-plugin/woocommerce-products-slider",
-            "version": "1.13.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woocommerce-products-slider/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-products-slider.zip?timestamp=1586074456"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woocommerce-products-slider/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-logo-showcase-responsive-slider-slider",
-            "version": "2.4.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-logo-showcase-responsive-slider-slider/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-logo-showcase-responsive-slider-slider.zip?timestamp=1577342008"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-logo-showcase-responsive-slider-slider/"
         }
     ],
     "packages-dev": [
@@ -2110,24 +2092,6 @@
                 "standards"
             ],
             "time": "2019-10-14T12:27:06+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/woo-slider-pro-drag-drop-slider-builder-for-woocommerce",
-            "version": "1.12",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woo-slider-pro-drag-drop-slider-builder-for-woocommerce/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-slider-pro-drag-drop-slider-builder-for-woocommerce.zip?timestamp=1576032949"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woo-slider-pro-drag-drop-slider-builder-for-woocommerce/"
         }
     ],
     "aliases": [],

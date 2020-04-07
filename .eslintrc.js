@@ -34,7 +34,7 @@ module.exports = {
   'rules': {
     'no-console': 0,
     'quotes': ['error', 'single'],
-    'indent': ['error', 2],
+    'indent': 0,
     'comma-dangle': [
       'error',
       {

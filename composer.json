@@ -46,7 +46,8 @@
     "mwdelaney/sage-bootstrap4-navwalker": "^1.3",
     "roots/sage-woocommerce": "^1.0",
         "wpackagist-plugin/woocommerce" : "^4.0.1",
-        "wpackagist-plugin/smart-slider-3":"3.3.28"    
+        "wpackagist-plugin/smart-slider-3":"3.3.28",
+        "wpackagist-plugin/kadence-blocks":"1.7.20"   
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.8.0",
