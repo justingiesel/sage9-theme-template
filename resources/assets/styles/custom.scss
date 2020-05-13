@@ -1,0 +1,213 @@
+/** Woocommerce overwrite styles */
+.woocommerce .woocommerce-breadcrumb {
+	margin: 1em 0;
+}
+.uk-button-primary { background-color: red !important; }
+
+.wp-block-button__link,
+.woocommerce a.button,
+.woocommerce button.button.alt {
+	padding: 12px 24px;
+	font-size: $font-size-base;
+	border-radius: $border-radius;
+}
+
+.woocommerce-Price-amount {
+	color: $black;
+	font-size: $font-size-lg;
+	text-decoration: none;
+}
+
+.blocks-featured-category {
+	.wc-block-featured-category.has-background-dim::before {
+		opacity: 0;
+		height: 0%;
+		background-color: $black;
+	}
+
+	.wp-block-column {
+		-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+
+	.wc-block-featured-category,
+	.wc-block-featured-category .wc-block-featured-category__wrapper {
+		min-height: 300px !important;
+		-webkit-box-pack: space-between;
+		justify-content: space-between;
+		-webkit-box-align: space-between;
+		align-items: space-between;
+		align-content: space-between;
+		border: 4px solid $secondary;
+		background-repeat: no-repeat;
+		-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+		background-size: 100%;
+		background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+	.wc-block-featured-category:hover,
+	.wc-block-featured-category .wc-block-featured-category__wrapper:hover {
+		-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+		background-size: 120%;
+	}
+
+	.wc-block-featured-category .wc-block-featured-category__title {
+		text-transform: uppercase;
+		padding: 20px 0;
+		color: $black;
+		font-size: $font-size-lg;
+		background: rgba(255, 255, 255, 0.8);
+	}
+
+	.wc-block-featured-category .wc-block-featured-category__link {
+		padding: 0;
+
+		.wp-block-button {
+			padding: 0;
+
+			.wp-block-button__link {
+				background-color: rgba(50, 55, 60, 0.8);
+
+				&:hover {
+					background: rgb(32, 172, 163);
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	.wc-block-featured-category__description {
+		display: none !important;
+	}
+}
+
+.n2-section-smartslider::after {
+	content: "";
+	display: block;
+	height: 40px;
+	margin-bottom: 30px;
+	width: 100%;
+	background-color: $black;
+}
+
+.home h2 {
+	background: #181818;
+	color: white;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	font-size: $font-size-lg;
+	font-weight: 400;
+}
+
+// PRODUCT grid
+
+.wc-block-grid__product a,
+.wc-block-grid__product a:hover {
+	text-decoration: none;
+}
+
+.wc-block-grid__product-title,
+.woocommerce-loop-product__title {
+		text-transform: uppercase;
+		font-size: 1.2em;
+		font-weight: normal;
+}
+
+a.add_to_cart_button,
+.woocommerce a.button,
+.woocommerce button.button.alt {
+	background-color: $black !important;
+	color: $white;
+	font-weight: normal;
+}
+
+a.add_to_cart_button:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button.alt:hover {
+		background-color: $primary !important;
+		text-decoration: none;
+		color: $white;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+	text-align: center;
+}
+
+.woocommerce ul.products li.product a img {
+	margin: 0 auto;
+}
+
+.size-woocommerce_thumbnail {
+	max-width: 200px !important;
+	height: auto;
+}
+
+.woocommerce span.onsale {
+	min-height: 4em;
+	min-width: 4em;
+	background-color: $primary;
+}
+
+.kt-tabs-title-list .kt-title-text {
+	text-transform: uppercase !important;
+}
+
+.kt-title-svg-side-right {
+    padding-left: 22px !important;
+    margin: 0 0 5px 0 !important;
+}
+
+/* Product archives */
+.archive .content {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.archive .content .main {
+    width: 75%;
+	box-sizing: border-box;
+}
+
+.woocommerce .products ul,
+.woocommerce ul.products {
+    padding: 40px 0 0 0;
+}
+
+.archive .content .sidebar {
+	width: 25%;
+	padding: 60px 20px 0 20px;
+	box-sizing: border-box;
+}
+
+h1.woocommerce-products-header__title.page-title,
+section.widget.woocommerce_product_categories-2.woocommerce.widget_product_categories h3 {
+    margin-bottom: 30px;
+}
+
+/* Product page */
+.woocommerce div.product form.cart div.quantity {
+    float: left;
+    margin: 5px 16px 0 0;
+}
+
+.woocommerce-message::before {
+    color: $primary;
+}
+
+.woocommerce-message {
+    border-top-color: $primary;
+}
+
+.woocommerce a.added_to_cart {
+    padding-top: 0.2em;
+    display: block;
+}
